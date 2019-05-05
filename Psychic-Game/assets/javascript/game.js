@@ -50,10 +50,7 @@ document.onkeyup = function(event) {
     guessesLeftText.textContent = "Guesses Left: " + guessesLeft;
     guessesSoFarText.textContent = "Your Guesses So Far: " + guessesSoFar.join(", ");
 
-    console.log(userGuess)
-    console.log(randomLetter)
-    console.log(wins)
-    console.log(losses)
-    console.log(guessesLeft)
+    console.log("User Guess: " + userGuess)
+    console.log("Random Letter: " + randomLetter)
 };
 
