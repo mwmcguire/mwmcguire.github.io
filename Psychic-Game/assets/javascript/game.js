@@ -52,5 +52,6 @@ document.onkeyup = function(event) {
 
     console.log("User Guess: " + userGuess)
     console.log("Random Letter: " + randomLetter)
+    console.log("----")
 };
 
